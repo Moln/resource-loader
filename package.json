@@ -1,6 +1,6 @@
 {
   "name": "@moln/page-resource-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Web resource loader. For resolve web page display loading.",
   "main": "resource-loading.js",
   "repository": "git@github.com:Moln/resource-loader.git",
