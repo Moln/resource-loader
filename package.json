@@ -1,0 +1,25 @@
+{
+  "name": "@moln/page-resource-loader",
+  "version": "1.0.0",
+  "description": "Web resource loader. For resolve web page display loading.",
+  "main": "resource-loading.js",
+  "repository": "git@github.com:Moln/resource-loader.git",
+  "author": "Moln <moln.xie@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "uglifyjs ./resource-loader.js -c -m -o ./resource-loader.min.js --support-ie8"
+  },
+  "devDependencies": {
+    "uglify-js": "^2.8.29"
+  },
+  "keywords": [
+    "resource",
+    "loading"
+  ],
+  "bugs": {
+    "url": "https://github.com/Moln/postmessage/issues"
+  },
+  "dependencies": {
+    "jquery": "^1 || ^2 || ^3.3.1"
+  }
+}
